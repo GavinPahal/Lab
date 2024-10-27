@@ -1,0 +1,58 @@
+body {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.app {
+  max-width: 400px;
+  padding: 20px;
+  text-align: center; /* Center text within the app */
+  background-color: white; /* Optional: Set a white background for better contrast */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+/* Style the Save button */
+.save-button {
+  background-color: green; /* Green background */
+  color: white; /* White text */
+  padding: 10px; /* Padding for height */
+  border: none; /* No border */
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Full width for a rectangle shape */
+}
+
+input[type="text"], button {
+  padding: 8px;
+  margin: 5px;
+}

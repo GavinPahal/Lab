@@ -1,0 +1,65 @@
+body {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text within the body */
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+/* Style the Save button */
+.save-button {
+  background-color: green; /* Green background */
+  color: white; /* White text */
+  padding: 10px; /* Padding for height */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  width: 100%; /* Full width for a rectangle shape */
+  border-radius: 0 0 4px 4px; /* Rounded corners at the bottom */
+}
+
+/* Style input box */
+input[type="text"] {
+  padding: 10px; /* Same height as button */
+  width: calc(100% - 2px); /* Adjust width to prevent overflow */
+  border: 1px solid #ddd; /* Add border */
+  border-radius: 4px 4px 0 0; /* Rounded corners at the top */
+  margin: 0; /* Remove margin */
+}
+
+/* Reset margin and padding for button */
+button {
+  margin: 0; /* No margin to connect with input */
+}
+
+input[type="text"]:focus {
+  outline: none; /* Remove default outline on focus */
+  border-color: green; /* Change border color on focus */
+}

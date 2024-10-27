@@ -1,0 +1,26 @@
+.task-form {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 20px; /* Space below the form */
+}
+
+.task-form input[type="text"] {
+  flex: 1; /* Allow the input to take available space */
+  padding: 10px; /* Same padding for consistency */
+  margin-right: 15px; /* Increased space between input and button */
+  border: 1px solid #ddd; /* Add border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.task-form button {
+  padding: 10px 15px; /* Adjust padding for button */
+  background-color: green; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.task-form button:hover {
+  opacity: 0.8; /* Slightly dim when hovered */
+}

@@ -1,0 +1,26 @@
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between tasks */
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and task text */
+}
+
+.task-text {
+  margin-right: 10px; /* Space between task text and button */
+}
+
+.remove-button {
+  background-color: red; /* Red background */
+  color: white; /* White text */
+  padding: 5px 10px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.remove-button:hover {
+  opacity: 0.8; /* Slightly dim when hovered */
+}
